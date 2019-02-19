@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 8vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input[type = number]{
+    width: 15vw;
+}
+
+#colorPicker {
+    cursor: pointer;
+}
+
+#submitDetails {
+    background-color: #02b3e4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
