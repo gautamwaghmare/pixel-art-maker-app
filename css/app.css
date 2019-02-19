@@ -24,3 +24,19 @@ input[type = number]{
     border-radius: 10px;
     cursor: pointer;
 }
+
+table, tr, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 2em;
+}
+
+td {
+    width: 2em;
+}
