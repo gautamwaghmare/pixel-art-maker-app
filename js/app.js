@@ -3,6 +3,7 @@ const inputWidth = document.querySelector('#gridWidth');
 const inputColor = document.querySelector('#colorPicker');
 const submit = document.querySelector('#submitDetails');
 const canvasTable = document.querySelector('#canvasTable');
+const reset = document.querySelector('#resetButton');
 
 let height = 1;
 let width = 1;
@@ -29,4 +30,8 @@ submit.addEventListener('click', () => {
             e.target.style.backgroundColor = color;
         }
     });
+});
+
+reset.addEventListener('click', () => {
+    document.location.reload();
 });

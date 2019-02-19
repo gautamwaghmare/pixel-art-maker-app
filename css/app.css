@@ -17,7 +17,7 @@ input[type = number]{
     cursor: pointer;
 }
 
-#submitDetails {
+#submitDetails, #resetButton {
     background-color: #02b3e4;
     color: #fff;
     padding: 10px;
